@@ -1,0 +1,57 @@
+QWidget {
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+QPushButton {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    min-width: 45px;
+    min-height: 45px;
+    border-color: #000000;
+}
+
+QPushButton:disabled {
+    border-color: #999999;
+}
+
+QLineEdit:focus {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 4px;
+    border-color: #7CFC00;
+}
+
+/*
+QsciScintilla {
+    qproperty-backgroundcolor: #D9DADB;
+    qproperty-marginbackgroundcolor: #D9DADB;
+}
+
+ActionButton[actionName="machine.estop.toggle"]:checked{
+    background: rgb(239, 41, 41);
+}
+
+ActionButton[actionName="machine.power.toggle"]:checked{
+    background:rgb(138, 226, 52);
+}
+
+ActionButton[actionName="program.run"]:enabled{
+    background:rgb(138, 226, 52);
+}
+
+ActionButton[actionName="program.step"]:enabled{
+    background:rgb(138, 226, 52);
+}
+
+ActionButton[actionName="program.pause"]:enabled{
+    background:rgb(252, 233, 79);
+}
+
+ActionButton[actionName="program.abort"]:enabled{
+    background: rgb(239, 41, 41);
+}
+
+*/

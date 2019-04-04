@@ -1,0 +1,1 @@
+recursive-include mill_touch_v5 *.yml *.yaml *.ui *.qss *.qrc *.db *.cvs
